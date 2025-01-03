@@ -43,7 +43,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="rounded-lg backdrop-blur-md lg:hidden">
+                <div className="rounded-lg lg:hidden">
                     <div className="flex items-center justify-end pr-2">
                         <div className="flex items-center">
                             <button className="focus:outline-none lg:hidden" onClick={toggleMobileMenu}>

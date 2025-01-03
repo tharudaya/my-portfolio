@@ -1,12 +1,13 @@
-import { EXPERIENCES } from "../constants"
+import { EXPERIENCES } from "../constants";
+import { motion } from "framer-motion";
 
 const Experience = () => {
     return (
         <section className="pt-20" id="work">
-            <h2 className="text-center mb-2 text-4xl font-semibold tracking-tighter">Work Experience</h2>
-            <div className="space-y-8 py-10">
+            <motion.h2 initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-2 text-4xl font-semibold tracking-tighter">Work Experience</motion.h2>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }} className="space-y-8 py-10">
                 {EXPERIENCES.map((experience, index) => (
-                    <div key={index} className="flex flex-col lg:flex-row gap-10 justify-end">
+                    <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: index * 0.1 }} key={index} className="flex flex-col lg:flex-row gap-10 justify-end">
                         <div className="w-full lg:w-[20%]">
                             <h3 className="text-2xl font-semibold">
                                 {experience.title}
@@ -17,9 +18,9 @@ const Experience = () => {
                             <p className="text-xl">{experience.company}</p>
                             <p className="mt-2 text-base">{experience.description}</p>
                         </div>
-                    </div>
+                    </motion.div>
                 ))}
-            </div>
+            </motion.div>
         </section>
     )
 }
