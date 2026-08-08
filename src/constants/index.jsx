@@ -43,7 +43,7 @@ export const HERO = {
   name: "Tharaka Udayanga",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a talent for crafting visually appealing and highly functional user interfaces. With over five years of experience, I specialize in turning ideas into seamless and engaging web experiences.",
+    "I am a passionate frontend developer with a talent for crafting visually appealing and highly functional user interfaces. With over 7 years of experience, I specialize in turning ideas into seamless and engaging web experiences.",
 };
 
 export const PROJECTS = [
@@ -104,7 +104,7 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "With a Bachelor of Science degree in Computer Science and Technology from Uva Wellassa University, Sri Lanka, I have spent the past five years mastering the art of frontend development. Working with leading SaaS companies like Wiley and Oneflow, I’ve contributed to the creation of seamless, user-focused web applications that deliver innovative digital experiences. My journey has been fueled by a passion for crafting impactful solutions and pushing the boundaries of what’s possible in web development.",
+  "With a Bachelor of Science degree in Computer Science and Technology from Uva Wellassa University, Sri Lanka, I have spent the past seven years mastering the art of frontend development. Working with leading SaaS companies like Wiley and Oneflow, I’ve contributed to the creation of seamless, user-focused web applications that deliver innovative digital experiences. My journey has been fueled by a passion for crafting impactful solutions and pushing the boundaries of what’s possible in web development.",
   "Currently, I serve as a Lead Frontend Engineer at Oneflow, Sweden, where I lead the integrations frontend team. In this role, I manage and maintain over seven integration systems built with React and TypeScript. My work involves driving agile projects, ensuring scalability, and delivering solutions that cater to a global user base. Beyond technical expertise, I value collaboration and innovation, fostering a team environment that prioritizes high-quality results.",
   "Beyond my professional career, I actively volunteer as a frontend developer at Empowered Futures, Canada, contributing to meaningful projects while gaining insights into the Canadian work environment. My technical expertise spans modern technologies such as React, Redux, Next.js, TypeScript, Tailwind CSS, and Docker. Driven by a commitment to delivering exceptional user experiences, I transform complex ideas into visually stunning and functional web applications, always with a user-first approach.",
 ];
@@ -113,22 +113,22 @@ export const SKILLS1 = [
   {
     icon: <RiJavascriptFill className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <BiLogoHtml5 className="text-4xl text-orange-400 lg:text-5xl" />,
     name: "HTML",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <BiLogoCss3 className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "CSS",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <LiaSass className="text-4xl text-pink-400 lg:text-5xl" />,
     name: "SCSS",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <BiLogoJquery className="text-4xl text-cyan-400 lg:text-5xl" />,
@@ -138,12 +138,12 @@ export const SKILLS1 = [
   {
     icon: <SiWebpack className="text-4xl text-blue-400 lg:text-5xl" />,
     name: "Webpack",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "5+ years",
+    experience: "7+ years",
   }
 ];
 
@@ -151,37 +151,37 @@ export const SKILLS2 = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "5+ years",
+    experience: "7+ years",
   },
   {
     icon: <BiLogoTypescript className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "TypeScript",
-    experience: "2+ years",
+    experience: "5+ years",
   },
   {
     icon: <TbBrandRedux className="text-4xl text-purple-400 lg:text-5xl" />,
     name: "Redux",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <SiTailwindcss className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "Tailwind CSS",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <SiJest className="text-4xl text-red-400 lg:text-5xl" />,
     name: "Jest",
-    experience: "3+ years",
+    experience: "5+ years",
   },
   {
     icon: <BsGithub className="text-4xl text-white lg:text-5xl" />,
     name: "Github",
-    experience: "5+ years",
+    experience: "7+ years",
   }
 ];
 

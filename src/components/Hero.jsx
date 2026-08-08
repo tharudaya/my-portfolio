@@ -1,5 +1,5 @@
 import { HERO } from "../constants";
-import myImg from '../assets/me2.jpeg';
+import myImg from '../assets/me.png';
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -19,7 +19,7 @@ function Hero() {
             </motion.div>
             <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className="w-full md:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img src={myImg} alt="my image" width={550} height={550} className="rounded-3xl" />
+                    <img src={myImg} alt="my image" width={450} className="rounded-3xl" />
                 </div>
             </motion.div>
         </section>
